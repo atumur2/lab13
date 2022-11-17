@@ -1,0 +1,38 @@
+// Collaborative code file, Lab 13
+// 
+// One person in your partner group should clone this repository.
+// Create a function that outputs your name, along with either one thing 
+//    that you learned about git or GitHub or something that gave you trouble
+//    that you would like others to learn from. The function name should be
+//    your NetID combined with your partner's NetID.
+// Feel free to add other things to your function as well, though be mindful
+// of the length of it, given how many students will be collaborating on this code!
+// 
+// Read through the code that is already here before adding your own.
+// Add this code to the repository using git commands.
+// 
+// An example is shown below.
+// 
+// UIC CS 211, Fall 2022
+#include <stdio.h>
+
+void reed_ekidan2() {
+  printf("Dale Reed and Ellen Kidane\n");
+  printf("We learned that git and GitHub are amazing, powerful tools!\n");
+}
+
+void atumur2_jarosa2() {
+  printf("Adam Tumurtuya and Joey Rosa\n");
+  printf("Replit has good functionality with github that makes creating a repository simple as long as you remember the multiple git config command lines to setup the repository. Github is a valuable tool when working with others as programs can be shared and edited with it being updated on the cloud for your team to work with.\n");
+}
+
+int main()
+{
+    printf("This code has been created by the students of CS 211, Fall 2022!\n\n");
+    
+    reed_ekidan2();
+
+    atumur2_jarosa2();
+    
+    return 0;
+}
